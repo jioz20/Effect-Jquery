@@ -1,0 +1,124 @@
+*{margin:0px; padding:0px;}
+header.phandau {
+    height: 800px;
+    width: 100%px;
+    position: relative;
+}
+
+.anhslide {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+._1slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity:0;
+    visibility: hidden;
+}
+
+._1slide.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.next {
+	top: 24%;
+    position: absolute;
+    z-index: 4;
+    right: 2%;
+    cursor: pointer;
+}
+
+.previous{
+    top: 24%;
+    position: absolute;
+    z-index: 4;
+    left: 2%;
+    cursor: pointer;
+
+}
+
+.nutslide li {
+    float: left;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    background: gray;
+    margin: 10px;
+    border-radius: 50%;
+    text-indent: -99999px;
+    cursor: pointer;
+    transition:0.4s;
+    border: 1px solid white;
+}
+
+.nutslide li:hover {
+    background: black;
+}
+.nutslide{
+    width:100%;
+    height:50px;
+    text-align:center;
+}
+ul{
+    display:inline-block;
+}
+
+._1slide.bienMat{
+    animation: bienMat 1s forwards;
+}
+@-webkit-keyframes bienMat {
+    0%{ left: 0%;}
+
+    100%{left: -100%; opacity: 0;
+    visibility: hidden;}
+}
+
+._1slide.divaophai{
+    animation: divaophai 1s forwards;
+}
+@-webkit-keyframes divaophai {
+    0%{ left: 100%;}
+
+    100%{left: 0%; opacity: 1;
+    visibility: visible;}
+
+}
+
+._1slide img{
+    width: 95%;
+    height: 50%;
+}
+
+._1slide.bienMatPhai{
+    animation:bienMatPhai 1s forwards;
+}
+@-webkit-keyframes bienMatPhai {
+    0%{ left: 100%;
+        opacity: 1;
+    visibility: visible;}
+
+    100%{left: 100%; opacity: 0;
+    visibility: hidden;}
+}
+
+._1slide.divaotrai{
+    animation:divaotrai 0.6s forwards ;
+}
+@-webkit-keyframes divaotrai {
+    0%{ left: -100%; opacity: 0;
+    visibility: hidden;}
+
+    100%{left: 0%; opacity: 1;
+    visibility: visible;}
+
+}
+
+.nutslide li.xanh {
+    background: none;
+    border: 1px solid #ae07f7;
+}

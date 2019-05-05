@@ -1,0 +1,58 @@
+*{margin: 0px; padding:0px; }
+.menutren {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 51px;
+    text-align: center;
+    background: black;
+    
+}
+
+.menutren li {display: item;display: inline;}
+
+.menutren a {display: inline-block;padding: 16px 40px;color: white; transition:0.4s;}
+
+.menutren ul li.active a { background: lightblue;  color: black; }
+
+div#so1 {
+    height: 900px;
+    overflow: hidden;
+    background: #412;
+    color: white;
+    padding-top:90px;
+    
+}
+
+div#so2 {
+    height: 900px;
+    overflow: hidden;
+    background: #74cdd2;
+    color: white;
+    padding-top:90px;
+}
+
+div#so3 {
+    height: 900px;
+    overflow: hidden;
+    background: #1d9832;
+    color: white;
+    padding-top:90px;
+}
+
+div#so4 {
+    height: 900px;
+    overflow: hidden;
+    background: #412;
+    color: white;
+    padding-top:90px;
+}
+
+
+div#so5 {
+    height: 900px;
+    overflow: hidden;
+    background: #d8bb27;
+    color: white;
+    padding-top:90px;
+}

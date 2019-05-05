@@ -1,0 +1,41 @@
+*{margin: 0px; padding: 0px;}
+.giaodien {
+    width: 800px;
+    margin: auto;
+    height: auto;
+    /* opacity: 0; */
+}
+
+img {
+    width: 100%;
+}
+
+.khoi {
+    width: 220px;
+    float: left;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.khoi a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: segoe ui light;
+}
+.khoitext {
+    font-family: segoe ui light;
+    font-size: 15px;
+    color: gray;
+    width: 1400px;
+    margin: auto;
+    padding-top: 10px;
+}
+/* .giaodien.hienra .khoi {
+    animation: tuduoilen 0.5s forwards;
+}
+@-webkit-keyframes tuduoilen {
+    0%{opacity:0;}
+    100%{opacity:1;}
+} */

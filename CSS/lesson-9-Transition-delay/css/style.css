@@ -1,0 +1,112 @@
+*{
+    margin:0; padding: 0;
+}
+.ratto {
+    width: 1260px;
+    margin: auto;
+    padding: 100px;
+}
+.to {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+img.anh {
+    height: 300px;
+    transition: 0.2s;
+    transform: scale(1.5);
+}
+
+.nenxanh {
+    width: 400px;
+    height: 300px;
+    background: #add8e642;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0;
+    transition-delay: 0.3s;
+}
+
+.thanh1, .thanh2 {
+    width: 350px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 147px;
+    left: 23px;
+    z-index: 3;
+    transition: 0.4s;
+    transform: rotate(0deg);
+    transition-delay: 0.9s;
+}
+
+.chuto, .chunho {
+    z-index: 4;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    top: 100px;
+    position: absolute;
+    color: white;
+    font-family: segoe ui light;
+    font-size: 26px;
+    transition: 0.3s;
+    transition-delay: 0.6s;
+}
+.chunho
+{
+    width: 80%;
+    top: 174px;
+    left: 0px;
+    position: absolute;
+    font-size: 18px;
+    transition: 0.4s;
+    padding: 0 40px;
+}
+.noidungthem{
+    clear:both;
+}
+.to:hover img.anh {transform: scale(1);}
+
+.to:hover .nenxanh {
+    opacity: 1;
+}
+
+.to:hover .thanh1 {
+    transform: rotate(45deg);
+}
+
+.to:hover .thanh2 {
+    transform: rotate(-45deg);
+}
+
+.to:hover .chuto {
+    transform: translateY(20px);
+}
+
+.to:hover .chunho {
+    transform: translateY(-15px);
+}
+
+
+.loadthem {
+    overflow: hidden;
+    clear: both;
+    width: 200px;
+    margin: auto;
+}
+
+button.nutload {
+    border: none;
+    background: #ff2808;
+    padding: 13px;
+    color: white;
+    cursor: pointer;
+}

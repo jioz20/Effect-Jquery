@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 23 </title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/one.js"></script>
+</head>
+<body>
+    <h2 class="text-center">Hiệu ứng TAB</h2>
+    <div role="tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Hiệu ứng 1: POPOVER</a>
+            </li>
+            <li role="presentation">
+                <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Hiệu ứng 2: TOOLTIP</a>
+            </li>
+        </ul>
+    
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="nut btn btn-info" data-hieuung="popover" data-title="Đây là tiêu đề" data-content="Còn đây là nội dung">
+                    Đây là popover
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tab" >
+                <div class="nut btn btn-warning" data-xtooltip="tooltip" title="Đây là hiệu ứng tooltip">
+                    Đây là tooltip
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

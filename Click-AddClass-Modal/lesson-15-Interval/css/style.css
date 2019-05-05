@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background: #e74c4c;
+    color: white;
+    font-family: segoe ui light;
+    font-size: 17px;
+}
+.text {
+    padding: 25px 25px;
+}
+.tieude {
+    background: #8e0303;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+.phan2cot {
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+    padding-top: 25px; 
+}
+
+.trai {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+.phai {
+    width: 45%;
+    float: left;
+    font-size: 33px;
+}
+
+.nut {
+    background: #961919;
+    width: 140px;
+    height: 41px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.nut:hover {
+    background: #440909;
+}
+
+
+
+.noidung h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    background: #750909;
+    border-radius: 20px 20px 0 0;
+}
+
+.nutdong {
+    text-align: center;
+    background: black;
+    width: 20%;
+    padding: 10px 0;
+    margin: auto;
+    cursor: pointer;
+}
+.nutdong:hover{
+	background: white;
+	color: black;
+}
+.momo{
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 1000px;
+	background:#000000c7;
+	position:fixed;
+	z-index: 1;
+	visibility: hidden;
+    opacity: 0;
+    transition:0.4s;
+}
+.noidung {
+    
+    background: #711717;
+    /* top: -100%; //Hiển thị từ trên xuống dưới*/
+    z-index:2;
+    border-radius: 20px;
+    
+    visibility: hidden;
+    opacity: 0;
+    transition:0.4s;
+    transform: translateZ(-2000px) rotateY(80deg);
+}
+.noidungcha{
+    position: fixed;
+    width: 520px;
+    height: 280px;
+
+    top: 27%;
+    z-index:3;
+    left: 34%;
+    perspective: 800px;
+}
+
+
+.noidung.noidunghienra {
+    opacity: 1;
+    visibility: visible;
+    animation:tienvao 1s forwards;
+    
+}
+@-webkit-keyframes tienvao{
+    0%{transform: translateZ(-2000px) rotateY(85deg);}
+    50%{transform: translateZ(0px) rotateY(85deg);}
+    100%{transform: translateZ(0px) rotateY(0deg);}
+}
+
+.momo.momora {
+    opacity: 1;
+    visibility: visible;
+    
+}

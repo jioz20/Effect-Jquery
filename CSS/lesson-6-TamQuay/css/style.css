@@ -1,0 +1,21 @@
+*{margin:0; padding: 0}
+img.anhdemo {
+    width: 400px;
+    transition: 2s; /* xoay 15s */
+    transform-origin: 50% 50%; /* Thuộc tính tâm quay */
+    transition-timing-function: cubic-bezier(0.35, 0.13, 0.4, 0.9);
+}
+
+.noidung {
+    background: lightblue;
+    padding: 60px 150px;
+    width: 27%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    perspective: 800px;
+}
+.noidung:hover .anhdemo{
+    transform: rotateY(360deg);
+    
+}

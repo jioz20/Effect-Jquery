@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body {font-family: 'Lora', serif;
+    background: url(http://localhost/jquery/lesson-3/images/bgnoise_lg.jpg);}
+
+.container {
+    text-align: center;
+}
+
+.hieuung {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    width: 40% auto;
+}
+
+.motkhoi h3 {
+    background: red;
+    padding: 10px 15px;
+    color: white;
+    /* animation: mymove 5s infinite; */
+}
+
+/* @-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: #000088; color: yellow;} 
+} */
+
+.ndmotkhoi {
+    padding: 10px;
+    border: 1px solid red;
+    background: #fff;
+    /* animation: mynd 5s infinite; */
+}
+/* @-webkit-keyframes mynd {
+    to {border: 1px solid #000088;}
+} */
+
+.motkhoi h3:hover {background: url('http://localhost/jquery/lesson-3/images/arrow_down.png') no-repeat 96%;
+color: red}
+
+h3.xanh {
+    background: lightblue;
+}
+
+.motkhoi h3.xanh:hover {
+    background: url('http://localhost/jquery/lesson-3/images/arrow_up.png') no-repeat 96% lightblue;
+}

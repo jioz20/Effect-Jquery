@@ -1,0 +1,77 @@
+*{margin: 0px;padding: 0px;}
+
+h1.tieude {
+    text-align: center;
+    margin: 12px 0px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+body {
+    background: url(../images/nen.jpg);
+}
+
+.noidung {
+    width: 50%;
+    margin: auto;
+}
+
+img.anhnho {
+    float: left;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.vaicaianh {
+    overflow: hidden;
+}
+
+._1motkhoi {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+}
+
+h2.tdkhoi {
+    height: 68px;
+    font-size: 55px;
+    font-weight: 300;
+    cursor: pointer;/* chuyển con trỏ chuột thành bàn tay */
+    overflow: hidden; 
+}
+
+.tdkhoi  img {
+    width: 20px;
+    float: right;
+    transition: 0.4s;
+    margin-right: -20px;
+    margin-top:39px;
+
+    
+/*  transform: rotate(180deg); */ /* Xoay 180 độ */
+}
+
+.tdkhoi:hover img {
+    margin-right: 50px;
+}
+
+h2.tdkhoi:hover {
+    color: #3468ffe0 ;
+    transition: 0.4s; /* hiển thị từ từ */
+}
+
+.ndkhoi {
+    font-size: 20px;
+    color: gray;
+    line-height: 25px;
+}
+.tdkhoi.xanh{
+	 color: #3468ffe0 ;
+	 
+}
+.tdkhoi.xanh img {
+	margin-right: 50px;
+	transform: rotate(180deg);
+	margin-top:39px;
+}
